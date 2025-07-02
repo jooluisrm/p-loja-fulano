@@ -4,7 +4,7 @@ import { Tabs } from "expo-router";
 
 export default function TabLayout() {
     return (
-        <Tabs screenOptions={{tabBarActiveTintColor: "#0000ff"}}>
+        <Tabs screenOptions={{ tabBarActiveTintColor: "#0000ff" }}>
             <Tabs.Screen
                 name="home"
                 options={{
@@ -18,7 +18,13 @@ export default function TabLayout() {
                 }}
             />
 
-            <Tabs.Screen
+
+        </Tabs>
+    );
+}
+
+/*
+<Tabs.Screen
                 name="categories"
                 options={{
                     title: "Categorias",
@@ -43,6 +49,4 @@ export default function TabLayout() {
                         />
                 }}
             />
-        </Tabs>
-    );
-}
+*/ 
