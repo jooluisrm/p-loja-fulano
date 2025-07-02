@@ -18,7 +18,7 @@ export default function Screen() {
             <Text style={styles.h1}>Loja do Fulano</Text>
             <Text style={styles.h2}>Aqui você encontra tudo que quiser!</Text>
             <Button 
-                title="Começarr as compras"
+                title="Começar as compras"
                 onPress={handleStart}
             />
         </SafeAreaView>
